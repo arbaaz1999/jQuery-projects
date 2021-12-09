@@ -1,0 +1,15 @@
+.val () // getter Function
+.val () // setter Function 
+
+is("")
+
+
+
+.html() // it will add html element to the document
+.html () 
+
+.append () add after
+.prepand () add  before
+.remove () to remove html element
+
+

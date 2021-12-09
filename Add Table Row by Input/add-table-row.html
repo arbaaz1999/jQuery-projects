@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        thead,
+        tbody,
+        tr,
+        th,
+        td {
+            border: 2px solid black;
+        }
+        
+        table {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--     <div id="inputDiv">
+        <input type="text"> <br id="brk">
+    </div>
+    <button id="btnAdd">+</button>
+    <button id="btnRemove">-</button> -->
+
+    <input type="text" placeholder="Name" id="name">
+    <input type="number" placeholder="Age" id="age">
+    <button id="save">Save</button>
+    <table style="width: 50%;">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+            </tr>
+        </thead>
+        <tbody id="body">
+        </tbody>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="add-table-row.js"></script>
+</body>
+
+</html>

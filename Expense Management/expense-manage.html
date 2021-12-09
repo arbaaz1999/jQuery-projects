@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="expense-manage.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="amount" type="number" placeholder="Amount">
+    <select id="type">
+        <option value="Income">Income</option>
+        <option value="Expense">Expense</option>
+    </select>
+    <input type="text" id="remark" placeholder="Remark">
+    <button id="saveBtn">Save</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Sr.No.</th>
+                <th>Amount</th>
+                <th>Type</th>
+                <th>Remark</th>
+                <th>Delete Row</th>
+            </tr>
+        </thead>
+        <tbody id="body">
+        </tbody>
+    </table>
+    <table id="table-2">
+        <tr id="table-2_row-1">
+            <th>Total Income</th>
+            <td id="income"></td>
+        </tr>
+        <tr id="table-2_row-2">
+            <th>Total Expenses</th>
+            <td id="expense"></td>
+        </tr>
+        <tr id="table-2_row-3">
+            <th>Balance</th>
+            <td id="balance"></td>
+        </tr>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="expense-manage.js"></script>
+</body>
+
+</html>
